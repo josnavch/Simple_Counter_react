@@ -11,11 +11,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container{
+   text-align: center;
+   background: black;
+}
 .container div{
     display: inline-block;
     font-size: 80px;
     line-height: 80px;
-    background: black;
+    background: #101010;
     color: white;
     padding: 10px;
+    margin: 3px;
+
 }
